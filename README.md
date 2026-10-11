@@ -82,6 +82,21 @@ Built against a conversion checklist drawn from top-performing HVAC sites, adapt
 - [x] License, insurance and trade affiliations shown
 - [x] 24/7 line for existing clients
 
+## Production stack
+
+This concept is hand-coded in plain HTML, CSS and vanilla JavaScript so it loads fast and runs anywhere with no build step. For a real client launch, this is the stack I would use, chosen for a calm, animated editorial experience and a guided inquiry that converts.
+
+| Layer | Choice | Why |
+|---|---|---|
+| Framework | [Astro](https://astro.build) with React islands | Static pages for speed; React only where interaction is needed |
+| Styling | [Tailwind CSS](https://tailwindcss.com) | The limestone / olive / clay palette and type scale as reusable tokens |
+| Animation | [Motion](https://motion.dev) + [GSAP](https://gsap.com) | Animated flow lines in the system diagram, energy bars and page transitions |
+| Multi-step form | [React Hook Form](https://react-hook-form.com) + [Zod](https://zod.dev) | Step-by-step validation with one shared schema for client and server |
+| Content editing | [Sanity](https://www.sanity.io) or [Storyblok](https://www.storyblok.com) | Edit case studies, FAQs and Care Plan tiers visually |
+| Images | Astro Image / [Cloudinary](https://cloudinary.com) | Art-directed crops for the asymmetric editorial layouts |
+| Forms delivery | Astro Actions + [Resend](https://resend.com) | Inquiry summaries emailed to the studio, confirmation to the client |
+| Hosting | [Vercel](https://vercel.com) or [Netlify](https://www.netlify.com) | CDN, preview deployments, automatic rebuilds |
+
 ## Run locally
 
 No build step or dependencies are needed. Serve the folder with any static server:
