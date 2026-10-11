@@ -12,6 +12,8 @@ A bespoke website concept for a design-build climate studio specializing in radi
 ![No build step](https://img.shields.io/badge/build-none-414b38?style=flat-square)
 ![Responsive](https://img.shields.io/badge/responsive-375%E2%80%931440px-b0603c?style=flat-square)
 
+**[View live site &rarr;](https://skibbbiti-coding.github.io/solenne-climate/)**
+
 </div>
 
 ![Solenne Climate Studio home page](docs/preview.png)
